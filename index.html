@@ -61,8 +61,8 @@
     <main>
       <!-- Text area  -->
       <h1 class="mt-3 text-center text-primary">My Text Editor</h1>
-      <section class="container mx-auto p-5">
-        <div class="w-75 mx-auto">
+      <section class="container  mx-auto p-5">
+        <div class="w-75 sm-w-100  mx-auto">
           <div class="bg-light-subtle p-4 rounded border border-info">
             <div class="mb-3 row">
               <div class="col">
@@ -83,12 +83,12 @@
                   right
                 </div>
               </div>
-              <div class="col">
-                <input id="color-picker" class="border-0" type="color" />
+              <div class="col d-flex gap-1">
                 <!-- <div class="badge btn p-0"></div> -->
                 <div class="btn badge text-bg-primary">fontSize</div>
                 <div id="copy" class="btn badge text-bg-primary">copy</div>
-                
+                <input id="color-picker badge btn" class="border-0" type="color" />
+
                 <!-- Toast container -->
               <div class=" toast-container position-fixed bottom-0 end-0 p-3">
                 <div class="toast align-items-center text-bg-success border-" role="alert" aria-live="assertive" aria-atomic="true">
@@ -104,7 +104,7 @@
               </div>
 
             </div>
-            <hr />
+            <hr class="mt-2" />
             <div class="">
               <textarea
                 class="form-control"
